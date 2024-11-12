@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.weatherApp{
+    background-image: url('stream-8317169_1280.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    font-size: 48px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title input{
+    height: 35px;
+    width: 400px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: none;
+    margin: 10px 0px;
+}
+.title button{
+    background-color: rgb(26, 200, 95);
+    width: 350px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 5px 0px;
+    border: none;
+}
+.weatherDiv{
+    width: 25%;
+}
+.weatherInfo{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url('architecture-1868667_1280.jpg');
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+.weatherDivContainer{
+    display: flex;
+    justify-content: center;
+}
+#temp{
+    margin-top: 40px;
+    font-size: 64px;
+}
+    
